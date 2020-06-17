@@ -13,7 +13,7 @@ int main(){
 	scanf(" %c",&x);
 	
 	if(isalpha(x)){
-		if(x=='a'|| x=='e' || x=='ý'|| x=='u'|| x=='o' || x=='A' || x=='E' || x=='I' || x=='O' || x=='U'){
+		if(x=='a'|| x=='e' || x=='i'|| x=='u'|| x=='o' || x=='A' || x=='E' || x=='I' || x=='O' || x=='U'){
 			printf("VOWEL");
 		}
 		else{
